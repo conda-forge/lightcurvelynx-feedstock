@@ -1,5 +1,5 @@
 {% set name = "lightcurvelynx" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/lightcurvelynx-{{ version }}.tar.gz
-  sha256: bafaeff911c5a128a49e0f39e647009bfabfeef11c3b49c2a05b963a910800e7
+  sha256: 25f9e9b18aeb9578303ac443a2ca2bbdc270c7cff9bd4cfdbf713a2d0ae7357e
 
 build:
   noarch: python
@@ -32,6 +32,7 @@ requirements:
     - numpy >=2
     - pandas
     - pooch
+    - PyYAML >=6
     - regions
     - scipy
     - tqdm
