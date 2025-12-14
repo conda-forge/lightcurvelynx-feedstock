@@ -29,6 +29,7 @@ requirements:
     - matplotlib-base
     - mocpy
     - nested-pandas
+    - networkx
     - numpy >=2
     - pandas
     - pooch
