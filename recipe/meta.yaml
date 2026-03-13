@@ -1,5 +1,5 @@
 {% set name = "lightcurvelynx" %}
-{% set version = "0.3.3" %}
+{% set version = "0.3.4" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/lightcurvelynx-{{ version }}.tar.gz
-  sha256: 038a33e09de5a289e9fd1f6765358ce6adc1b33779efa4cd21da1c7c6e902f15
+  sha256: 8acc7064f0b33a5fa58a8941b1ee4b6b8be89dd4aed3be3ca45c2b08376b454b
 
 build:
   noarch: python
@@ -24,6 +24,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - astropy-base
+    - astroquery
     - cdshealpix
     - citation-compass >=0.0.3
     - matplotlib-base
