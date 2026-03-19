@@ -1,5 +1,5 @@
 {% set name = "lightcurvelynx" %}
-{% set version = "0.3.5" %}
+{% set version = "0.3.6" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/lightcurvelynx-{{ version }}.tar.gz
-  sha256: 5c04e62c307b38c371781c3b7b3e403c67f379c47e021db276c7122eb88745d2
+  sha256: 2409e8f4a6e98f5648cddc4d4f5e089dd8013b0280536460953982d59aae9186
 
 build:
   noarch: python
