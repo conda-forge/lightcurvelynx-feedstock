@@ -37,6 +37,7 @@ requirements:
     - PyYAML >=6
     - regions
     - scipy
+    - sncosmo
     - tqdm
 
 test:
