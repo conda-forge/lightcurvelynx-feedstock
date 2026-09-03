@@ -201,6 +201,3 @@ Feedstock Maintainers
 * [@mi-dai](https://github.com/mi-dai/)
 * [@olivialynn](https://github.com/olivialynn/)
 
-
-<!-- dummy commit to enable rerendering -->
-
