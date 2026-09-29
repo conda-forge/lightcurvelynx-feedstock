@@ -1,5 +1,5 @@
 {% set name = "lightcurvelynx" %}
-{% set version = "0.6.2" %}
+{% set version = "0.6.3" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/70/1a/08a22e2f9f0c5adf63290ad55b8d72480e7e6632b2f9b5b2a22283c8507c/lightcurvelynx-{{ version }}.tar.gz
-  sha256: 7051f8c555525cb56ecfdbdffe70323110f94193dd3761a252eae1f280fa0f33
+  url: https://files.pythonhosted.org/packages/79/12/3a6b5ef97456f6a11439298defd7dd369340b67fa5e064750843271156d0/lightcurvelynx-{{ version }}.tar.gz
+  sha256: eeccd86c28eb3bce525123968dd53ec519026b9b70d0bc1d81b3c38cd8cee5f8
 
 build:
   noarch: python
