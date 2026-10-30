@@ -26,14 +26,15 @@ requirements:
     - astropy-base
     - astroquery
     - cdshealpix
-    - citation-compass >=0.0.3
+    - citation-compass >=0.1.0
+    - joblib
     - matplotlib-base
     - mocpy
     - nested-pandas >=0.6.0
-    - networkx
     - numpy >=2.0
     - pandas
     - pooch
+    - pyarrow >19.0.1
     - PyYAML >=6.0
     - regions
     - scipy
